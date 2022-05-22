@@ -43,6 +43,8 @@ class StringDataStructure {
         return stack.isEmpty == true ? true : false
     }
     
+    
+    //A string is called a palindrome string if the reverse of that string is the same as the original string. For example, radar , level
     func isPalindrome(_ s: String) -> Bool {
         var array = [Character]()
         for char in s {

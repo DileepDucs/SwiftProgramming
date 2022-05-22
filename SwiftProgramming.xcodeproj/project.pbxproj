@@ -20,8 +20,11 @@
 		F02AC3CB2793E86F00DF9020 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02AC3CA2793E86F00DF9020 /* SessionViewModel.swift */; };
 		F02AC3D02794501000DF9020 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02AC3CF2794501000DF9020 /* User.swift */; };
 		F02AC3D22794853E00DF9020 /* CustomTViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02AC3D12794853E00DF9020 /* CustomTViewCell.swift */; };
+		F02BA8AC2836A7330073C4E7 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02BA8AB2836A7330073C4E7 /* Blog.swift */; };
+		F02BA8AE2836A75F0073C4E7 /* MemoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02BA8AD2836A75F0073C4E7 /* MemoryManagement.swift */; };
 		F0346C3226FF4B8400745ADD /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0346C3126FF4B8400745ADD /* LinkedList.swift */; };
 		F0346C3726FF64D100745ADD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0346C3626FF64D100745ADD /* Networking.swift */; };
+		F0458FA3283947210088F9AC /* HeigherOrderFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0458FA2283947210088F9AC /* HeigherOrderFunc.swift */; };
 		F062C7E427003F5C00698053 /* ArrayDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062C7E327003F5C00698053 /* ArrayDataStructure.swift */; };
 		F062C7E627003F8800698053 /* StringDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062C7E527003F8800698053 /* StringDataStructure.swift */; };
 		F062C7E92700C9F000698053 /* SwiftLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062C7E82700C9F000698053 /* SwiftLearning.swift */; };
@@ -30,7 +33,10 @@
 		F08FE70527C0A8B300E442E5 /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08FE70427C0A8B300E442E5 /* MaxHeap.swift */; };
 		F08FE70827C129FB00E442E5 /* RecursionQn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08FE70727C129FB00E442E5 /* RecursionQn.swift */; };
 		F09B788828309CF0009BF1CF /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = F09B788728309CF0009BF1CF /* Documentation */; };
+		F09B788A2830A10D009BF1CF /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B78892830A10D009BF1CF /* Doc.swift */; };
+		F09B788C28316A9D009BF1CF /* GraphDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B788B28316A9D009BF1CF /* GraphDataStructure.swift */; };
 		F0BBB66B2718A60800C10CB8 /* NumberProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBB66A2718A60800C10CB8 /* NumberProgramming.swift */; };
+		F0DD19F128374284006105BF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DD19F028374284006105BF /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,8 +55,11 @@
 		F02AC3CA2793E86F00DF9020 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
 		F02AC3CF2794501000DF9020 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F02AC3D12794853E00DF9020 /* CustomTViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTViewCell.swift; sourceTree = "<group>"; };
+		F02BA8AB2836A7330073C4E7 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		F02BA8AD2836A75F0073C4E7 /* MemoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagement.swift; sourceTree = "<group>"; };
 		F0346C3126FF4B8400745ADD /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		F0346C3626FF64D100745ADD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		F0458FA2283947210088F9AC /* HeigherOrderFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeigherOrderFunc.swift; sourceTree = "<group>"; };
 		F062C7E327003F5C00698053 /* ArrayDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDataStructure.swift; sourceTree = "<group>"; };
 		F062C7E527003F8800698053 /* StringDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDataStructure.swift; sourceTree = "<group>"; };
 		F062C7E82700C9F000698053 /* SwiftLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearning.swift; sourceTree = "<group>"; };
@@ -59,7 +68,10 @@
 		F08FE70427C0A8B300E442E5 /* MaxHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHeap.swift; sourceTree = "<group>"; };
 		F08FE70727C129FB00E442E5 /* RecursionQn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursionQn.swift; sourceTree = "<group>"; };
 		F09B788728309CF0009BF1CF /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = text; path = Documentation; sourceTree = "<group>"; };
+		F09B78892830A10D009BF1CF /* Doc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doc.swift; sourceTree = "<group>"; };
+		F09B788B28316A9D009BF1CF /* GraphDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDataStructure.swift; sourceTree = "<group>"; };
 		F0BBB66A2718A60800C10CB8 /* NumberProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberProgramming.swift; sourceTree = "<group>"; };
+		F0DD19F028374284006105BF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,9 @@
 		F0222F1A26DE3C5D0002EA16 = {
 			isa = PBXGroup;
 			children = (
+				F0458FA428394B100088F9AC /* Clouser */,
+				F0458FA1283947010088F9AC /* HeigherOrderFunc */,
+				F02BA8AA2836A7180073C4E7 /* Memory Management */,
 				F09B788628309CD0009BF1CF /* Doc */,
 				F0222F2A26DE3C5D0002EA16 /* ViewController.swift */,
 				F02AC3C72793E5F600DF9020 /* URLSessionAPICall */,
@@ -129,6 +144,7 @@
 		F0222F3B26DE3C830002EA16 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				F09B788B28316A9D009BF1CF /* GraphDataStructure.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -192,6 +208,16 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		F02BA8AA2836A7180073C4E7 /* Memory Management */ = {
+			isa = PBXGroup;
+			children = (
+				F02BA8AB2836A7330073C4E7 /* Blog.swift */,
+				F02BA8AD2836A75F0073C4E7 /* MemoryManagement.swift */,
+				F0DD19F028374284006105BF /* SecondViewController.swift */,
+			);
+			path = "Memory Management";
+			sourceTree = "<group>";
+		};
 		F0346C3326FF4D7D00745ADD /* Array */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +240,21 @@
 				F0346C3626FF64D100745ADD /* Networking.swift */,
 			);
 			path = NetworkCall;
+			sourceTree = "<group>";
+		};
+		F0458FA1283947010088F9AC /* HeigherOrderFunc */ = {
+			isa = PBXGroup;
+			children = (
+				F0458FA2283947210088F9AC /* HeigherOrderFunc.swift */,
+			);
+			path = HeigherOrderFunc;
+			sourceTree = "<group>";
+		};
+		F0458FA428394B100088F9AC /* Clouser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clouser;
 			sourceTree = "<group>";
 		};
 		F062C7E72700C9B500698053 /* Swift Learning */ = {
@@ -253,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				F09B788728309CF0009BF1CF /* Documentation */,
+				F09B78892830A10D009BF1CF /* Doc.swift */,
 			);
 			path = Doc;
 			sourceTree = "<group>";
@@ -338,22 +380,28 @@
 			files = (
 				F025DAD3279148C100D0FF38 /* FrequentlyAskedQN.swift in Sources */,
 				F08FE70827C129FB00E442E5 /* RecursionQn.swift in Sources */,
+				F09B788A2830A10D009BF1CF /* Doc.swift in Sources */,
+				F0DD19F128374284006105BF /* SecondViewController.swift in Sources */,
 				F062C7E627003F8800698053 /* StringDataStructure.swift in Sources */,
+				F09B788C28316A9D009BF1CF /* GraphDataStructure.swift in Sources */,
 				F0222F2B26DE3C5D0002EA16 /* ViewController.swift in Sources */,
 				F062C7E427003F5C00698053 /* ArrayDataStructure.swift in Sources */,
 				F08FE70527C0A8B300E442E5 /* MaxHeap.swift in Sources */,
 				F0222F4126DE3D440002EA16 /* Stack.swift in Sources */,
 				F0346C3726FF64D100745ADD /* Networking.swift in Sources */,
 				F0BBB66B2718A60800C10CB8 /* NumberProgramming.swift in Sources */,
+				F02BA8AC2836A7330073C4E7 /* Blog.swift in Sources */,
 				F087AA0827BEB1CC00F490BE /* PriortyQueue.swift in Sources */,
 				F02AC3C92793E6CA00DF9020 /* URLSessionDataTaskViewController.swift in Sources */,
 				F02AC3D02794501000DF9020 /* User.swift in Sources */,
+				F02BA8AE2836A75F0073C4E7 /* MemoryManagement.swift in Sources */,
 				F0222F2726DE3C5D0002EA16 /* AppDelegate.swift in Sources */,
 				F02AC3D22794853E00DF9020 /* CustomTViewCell.swift in Sources */,
 				F062C7E92700C9F000698053 /* SwiftLearning.swift in Sources */,
 				F0222F4326DE821E0002EA16 /* TreeDataStructure.swift in Sources */,
 				F02AC3CB2793E86F00DF9020 /* SessionViewModel.swift in Sources */,
 				F087AA0627BE9B2100F490BE /* Queue.swift in Sources */,
+				F0458FA3283947210088F9AC /* HeigherOrderFunc.swift in Sources */,
 				F0222F2926DE3C5D0002EA16 /* SceneDelegate.swift in Sources */,
 				F0346C3226FF4B8400745ADD /* LinkedList.swift in Sources */,
 			);

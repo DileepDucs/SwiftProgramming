@@ -17,6 +17,43 @@ class Tree {
 }
 
 class TreeDataStructure {
+    
+    //9. How do you traverse a given binary tree in preorder without recursion?
+    func preOrderTraversalIterative(root: Tree?) {
+        guard let root = root else { return }
+        var stack = Stack<Tree>()
+        stack.push(root)
+        while !stack.isEmpty {
+            let top = stack.pop()
+            print(top?.data ?? 0)
+            if let right = top?.right {
+                stack.push(right)
+            }
+            if let left = top?.left {
+                stack.push(left)
+            }
+        }
+    }
+    
+    //10. How do you print all nodes of a given binary tree using inorder traversal without recursion?
+    
+    func inorderTraversalIterative(root: Tree?) {
+        guard let root = root else { return }
+        var stack = Stack<Tree>()
+        var current: Tree? = root
+        while current != nil || stack.isEmpty == false{
+            while current != nil {
+                stack.push(current!)
+                current = current?.left
+            }
+            current = stack.pop()
+            print(current?.data ?? "")
+            current = current?.right
+        }
+    }
+    
+    
+    
     //Symmetric Tree (Mirror Image of itself)
     /**
           1
