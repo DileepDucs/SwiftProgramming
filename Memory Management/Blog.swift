@@ -29,3 +29,21 @@ class Blogger {
         print("Blogger \(name) is being deinitialized")
     }
 }
+
+class NoteBook {
+    var bookName: String
+    
+    init(bookName: String) {
+        self.bookName = bookName
+    }
+    
+    func printName() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            print(self.bookName)
+        }
+    }
+    
+    deinit {
+        print("Book deleted")
+    }
+}

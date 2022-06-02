@@ -96,7 +96,7 @@ extension Array {
         return result
     }
     
-    func myReduce<Result>(_ initialResult: Result, _ nextPartialResult: (Result, Element)-> Result) -> Result {
+    func myReduce<Result>(_ initialResult: Result, _ nextPartialResult: (Result, Element) -> Result) -> Result {
         var result = initialResult
         for value in self {
             result = nextPartialResult(result, value)

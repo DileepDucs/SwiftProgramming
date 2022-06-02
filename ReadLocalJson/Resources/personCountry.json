@@ -1,0 +1,27 @@
+{
+    "person":[
+        {
+            "name": "Bob",
+            "age": 16,
+            "employed": "No"
+        },
+        {
+            "name": "Vinny",
+            "age": 56,
+            "employed": "Yes"
+        }
+    ],
+    "country":[{
+        "flag": "usa.png",
+        "country": "USA",
+        "countryName": "United States"
+    }, {
+        "flag": "india.png",
+        "country": "IND",
+        "countryName": "India"
+    }, {
+        "flag": "uk.png",
+        "country": "UK",
+        "countryName": "United Kingdom"
+    }]
+}

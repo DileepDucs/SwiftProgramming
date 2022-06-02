@@ -18,6 +18,34 @@ class Tree {
 
 class TreeDataStructure {
     
+    //https://www.geeksforgeeks.org/insertion-in-a-binary-tree-in-level-order/
+    //Given a binary tree and a key, insert the key into the binary tree at the first position available in level order.
+    
+    func binaryTreeInsertion(root: Tree?, data: Int) -> Tree {
+        guard let root = root else { return Tree(data: data) }
+        var queue = Queue<Tree>()
+        queue.enqueue(root)
+        while !queue.isEmpty {
+            let temp = queue.dequeue()
+            if let left = temp?.left {
+                queue.enqueue(left)
+            } else {
+                temp?.left = Tree(data: data)
+                return root
+            }
+            
+            if let right = temp?.right {
+                queue.enqueue(right)
+            } else {
+                temp?.right = Tree(data: data)
+                return root
+            }
+        }
+        
+        return Tree(data: data)
+    }
+    
+    
     //9. How do you traverse a given binary tree in preorder without recursion?
     func preOrderTraversalIterative(root: Tree?) {
         guard let root = root else { return }
@@ -51,8 +79,6 @@ class TreeDataStructure {
             current = current?.right
         }
     }
-    
-    
     
     //Symmetric Tree (Mirror Image of itself)
     /**
@@ -202,21 +228,6 @@ class TreeDataStructure {
         postOrder(node: node.left)
         postOrder(node: node.right)
         print(node.data)
-    }
-    
-    func inorderTraversal(node: Tree?) {
-         var stack = Stack<Tree>()
-         var current = node
-         while current != nil || stack.isEmpty == false {
-             while current != nil {
-                stack.push(current!)
-                current = current?.left
-             }
-             current = stack.pop()
-             guard let currentNode = current else { return }
-             print(currentNode.data)
-             current = currentNode.right
-        }
     }
     
     func morisTraversal(node: Tree?) {

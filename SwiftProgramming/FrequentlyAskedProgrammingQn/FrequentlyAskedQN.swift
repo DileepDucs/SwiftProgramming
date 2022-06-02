@@ -9,6 +9,85 @@ import Foundation
 
 class FrequentlyAskedQN {
     
+    
+    //Longest common subarray in the given two arrays
+    func findLength(_ nums1: [Int], _ nums2: [Int]) -> Int {
+        var max = Int.min
+        for index in 0..<nums1.count {
+            var count = 0
+            var firstIndex = index
+            for subIndex in 0..<nums2.count {
+                if firstIndex < nums1.count && nums1[firstIndex] == nums2[subIndex] {
+                    count = count + 1
+                    if count > max {
+                        max = count
+                    }
+                    firstIndex = firstIndex + 1
+                }
+            }
+        }
+        return max < 0 ? 0 : max
+    }
+    
+    func findLengthOptimum(_ nums1: [Int], _ nums2: [Int]) -> Int {
+        let n = nums1.count
+        let m = nums2.count
+        var result = Array(repeating: Array(repeating: 0, count: m + 1), count: n + 1)
+        var max = 0
+        for i in 1...n {
+            for j in 1...m {
+                if nums1[i - 1] == nums2[j - 1] {
+                    result[i][j] = 1 + result[i - 1][j - 1]
+                }
+            }
+        }
+        
+        for i in 0...n {
+            var string = ""
+            for j in 0...m {
+                string = string + " " + "\(result[i][j])"
+                if result[i][j] > max {
+                    max = result[i][j]
+                }
+            }
+            print(string)
+        }
+        return max
+    }
+    
+    func minSubArrayLen(_ target: Int, _ nums: [Int]) -> Int {
+        if nums.count < 1{
+            return 0
+        }
+        var sum = 0
+        var result = Int.max
+        var start = 0
+        var i = 0
+        while i < nums.count {
+            sum = sum + nums[i]
+            if sum == target {
+                let count = i - start
+                if count < result {
+                    result = count
+                }
+                i = i + 1
+            } else if sum < target {
+                i = i + 1
+            } else {
+                sum = sum - nums[start]
+                start = start + 1
+                i = i + 1
+                if sum == target {
+                    let count = i - start
+                    if count < result {
+                        result = count
+                    }
+                }
+            }
+        }
+        return result
+    }
+    
     // LinkedList Problems
     func linkedListProblems() {
         let linkedList = LinkedList()

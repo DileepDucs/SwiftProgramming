@@ -8,6 +8,7 @@
 import UIKit
 //https://www.youtube.com/watch?v=rESIHtfYN_Y ////goood
 //In troducing a retain cycle by using a clouser or NSNotifiacationcenter
+//https://medium.com/@mohitchaudhary_43770/why-we-should-use-weak-self-in-closure-d21b22193884
 class SecondViewController: UIViewController {
 
     override func viewDidLoad() {

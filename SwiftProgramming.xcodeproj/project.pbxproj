@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01AB3F82848D95000713949 /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01AB3F72848D95000713949 /* LocalStorageManager.swift */; };
+		F01AB3FF2848DD4700713949 /* complex.json in Resources */ = {isa = PBXBuildFile; fileRef = F01AB3FA2848DD4700713949 /* complex.json */; };
+		F01AB4002848DD4700713949 /* countryList.json in Resources */ = {isa = PBXBuildFile; fileRef = F01AB3FB2848DD4700713949 /* countryList.json */; };
+		F01AB4012848DD4700713949 /* stringList.json in Resources */ = {isa = PBXBuildFile; fileRef = F01AB3FC2848DD4700713949 /* stringList.json */; };
+		F01AB4022848DD4700713949 /* personCountry.json in Resources */ = {isa = PBXBuildFile; fileRef = F01AB3FD2848DD4700713949 /* personCountry.json */; };
+		F01AB4032848DD4700713949 /* person.json in Resources */ = {isa = PBXBuildFile; fileRef = F01AB3FE2848DD4700713949 /* person.json */; };
 		F0222F2726DE3C5D0002EA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0222F2626DE3C5D0002EA16 /* AppDelegate.swift */; };
 		F0222F2926DE3C5D0002EA16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0222F2826DE3C5D0002EA16 /* SceneDelegate.swift */; };
 		F0222F2B26DE3C5D0002EA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0222F2A26DE3C5D0002EA16 /* ViewController.swift */; };
@@ -25,6 +31,8 @@
 		F0346C3226FF4B8400745ADD /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0346C3126FF4B8400745ADD /* LinkedList.swift */; };
 		F0346C3726FF64D100745ADD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0346C3626FF64D100745ADD /* Networking.swift */; };
 		F0458FA3283947210088F9AC /* HeigherOrderFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0458FA2283947210088F9AC /* HeigherOrderFunc.swift */; };
+		F0458FA7283A5E390088F9AC /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0458FA6283A5E390088F9AC /* Employee.swift */; };
+		F0458FA9283A74540088F9AC /* ClosuresExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0458FA8283A74540088F9AC /* ClosuresExample.swift */; };
 		F062C7E427003F5C00698053 /* ArrayDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062C7E327003F5C00698053 /* ArrayDataStructure.swift */; };
 		F062C7E627003F8800698053 /* StringDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062C7E527003F8800698053 /* StringDataStructure.swift */; };
 		F062C7E92700C9F000698053 /* SwiftLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062C7E82700C9F000698053 /* SwiftLearning.swift */; };
@@ -40,6 +48,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F01AB3F72848D95000713949 /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		F01AB3FA2848DD4700713949 /* complex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = complex.json; sourceTree = "<group>"; };
+		F01AB3FB2848DD4700713949 /* countryList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryList.json; sourceTree = "<group>"; };
+		F01AB3FC2848DD4700713949 /* stringList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stringList.json; sourceTree = "<group>"; };
+		F01AB3FD2848DD4700713949 /* personCountry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = personCountry.json; sourceTree = "<group>"; };
+		F01AB3FE2848DD4700713949 /* person.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person.json; sourceTree = "<group>"; };
 		F0222F2326DE3C5D0002EA16 /* SwiftProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0222F2626DE3C5D0002EA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0222F2826DE3C5D0002EA16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +74,8 @@
 		F0346C3126FF4B8400745ADD /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		F0346C3626FF64D100745ADD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		F0458FA2283947210088F9AC /* HeigherOrderFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeigherOrderFunc.swift; sourceTree = "<group>"; };
+		F0458FA6283A5E390088F9AC /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		F0458FA8283A74540088F9AC /* ClosuresExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresExample.swift; sourceTree = "<group>"; };
 		F062C7E327003F5C00698053 /* ArrayDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDataStructure.swift; sourceTree = "<group>"; };
 		F062C7E527003F8800698053 /* StringDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDataStructure.swift; sourceTree = "<group>"; };
 		F062C7E82700C9F000698053 /* SwiftLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearning.swift; sourceTree = "<group>"; };
@@ -85,9 +101,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F01AB3F42848D90800713949 /* ReadLocalJson */ = {
+			isa = PBXGroup;
+			children = (
+				F01AB3F92848DD3B00713949 /* Resources */,
+				F01AB3F72848D95000713949 /* LocalStorageManager.swift */,
+			);
+			path = ReadLocalJson;
+			sourceTree = "<group>";
+		};
+		F01AB3F92848DD3B00713949 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F01AB3FA2848DD4700713949 /* complex.json */,
+				F01AB3FB2848DD4700713949 /* countryList.json */,
+				F01AB3FE2848DD4700713949 /* person.json */,
+				F01AB3FD2848DD4700713949 /* personCountry.json */,
+				F01AB3FC2848DD4700713949 /* stringList.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F0222F1A26DE3C5D0002EA16 = {
 			isa = PBXGroup;
 			children = (
+				F01AB3F42848D90800713949 /* ReadLocalJson */,
+				F0458FA5283A5E160088F9AC /* PropertyWraper */,
 				F0458FA428394B100088F9AC /* Clouser */,
 				F0458FA1283947010088F9AC /* HeigherOrderFunc */,
 				F02BA8AA2836A7180073C4E7 /* Memory Management */,
@@ -253,8 +292,17 @@
 		F0458FA428394B100088F9AC /* Clouser */ = {
 			isa = PBXGroup;
 			children = (
+				F0458FA8283A74540088F9AC /* ClosuresExample.swift */,
 			);
 			path = Clouser;
+			sourceTree = "<group>";
+		};
+		F0458FA5283A5E160088F9AC /* PropertyWraper */ = {
+			isa = PBXGroup;
+			children = (
+				F0458FA6283A5E390088F9AC /* Employee.swift */,
+			);
+			path = PropertyWraper;
 			sourceTree = "<group>";
 		};
 		F062C7E72700C9B500698053 /* Swift Learning */ = {
@@ -364,9 +412,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01AB4002848DD4700713949 /* countryList.json in Resources */,
+				F01AB4012848DD4700713949 /* stringList.json in Resources */,
 				F0222F3326DE3C5F0002EA16 /* LaunchScreen.storyboard in Resources */,
+				F01AB4032848DD4700713949 /* person.json in Resources */,
 				F0222F3026DE3C5F0002EA16 /* Assets.xcassets in Resources */,
 				F0222F2E26DE3C5D0002EA16 /* Main.storyboard in Resources */,
+				F01AB4022848DD4700713949 /* personCountry.json in Resources */,
+				F01AB3FF2848DD4700713949 /* complex.json in Resources */,
 				F09B788828309CF0009BF1CF /* Documentation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,13 +443,16 @@
 				F0222F4126DE3D440002EA16 /* Stack.swift in Sources */,
 				F0346C3726FF64D100745ADD /* Networking.swift in Sources */,
 				F0BBB66B2718A60800C10CB8 /* NumberProgramming.swift in Sources */,
+				F0458FA9283A74540088F9AC /* ClosuresExample.swift in Sources */,
 				F02BA8AC2836A7330073C4E7 /* Blog.swift in Sources */,
 				F087AA0827BEB1CC00F490BE /* PriortyQueue.swift in Sources */,
 				F02AC3C92793E6CA00DF9020 /* URLSessionDataTaskViewController.swift in Sources */,
 				F02AC3D02794501000DF9020 /* User.swift in Sources */,
 				F02BA8AE2836A75F0073C4E7 /* MemoryManagement.swift in Sources */,
+				F01AB3F82848D95000713949 /* LocalStorageManager.swift in Sources */,
 				F0222F2726DE3C5D0002EA16 /* AppDelegate.swift in Sources */,
 				F02AC3D22794853E00DF9020 /* CustomTViewCell.swift in Sources */,
+				F0458FA7283A5E390088F9AC /* Employee.swift in Sources */,
 				F062C7E92700C9F000698053 /* SwiftLearning.swift in Sources */,
 				F0222F4326DE821E0002EA16 /* TreeDataStructure.swift in Sources */,
 				F02AC3CB2793E86F00DF9020 /* SessionViewModel.swift in Sources */,
